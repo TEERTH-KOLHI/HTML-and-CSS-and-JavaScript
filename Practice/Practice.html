@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Button</button>
+    <p>Paragraph</p>
+    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+
+
+    <br>
+    <br>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <style>
+        .subscribe-button{
+            background-color: rgb(167, 7, 7);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 105px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: opacity 1s;
+        }
+        .subscribe-button:hover{
+            opacity: 0.8;
+        }
+        .subscribe-button:active{
+            opacity: 0.4;
+        }
+        .join-button{
+            background-color: white;
+            border-color: rgb(9, 9, 190);
+            border-style: solid;
+            border-width: 1px;
+            color: rgb(9, 9, 190);
+            height: 36px;
+            width: 62px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.15s, color 0.15s;
+        }
+        .join-button:hover{
+            background-color: rgb(9, 9, 190);
+            color: white;
+        }
+        .join-button:active{
+            opacity: 0.7;
+        }
+        .tweet-button{
+            background-color: rgb(0, 119, 255);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 74px;
+            border-radius: 18px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            transition: box-shadow 0.15s;
+        }
+        .tweet-button:hover{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button ">
+        Tweet
+    </button>
+
+    
+</body>
+</html>
